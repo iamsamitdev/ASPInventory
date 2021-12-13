@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - ASP Inventory System</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Nunito+Sans&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    @Styles.Render("~/Content/backendcss")
+
+</head>
+<body id="page-top">
+
+    <div id="wrapper">
+
+        <!--Sidebar-->
+        @{ Html.RenderPartial("../Shared/backend/sidebar"); }
+
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <!--Navbar-->
+                @{ Html.RenderPartial("../Shared/backend/navbar"); }
+
+                <!--Content-->
+                @RenderBody()
+
+                <!--Footer-->
+                @{ Html.RenderPartial("../Shared/backend/footer"); }
+            </div>
+        </div>
+
+    </div>
+
+    @Scripts.Render("~/bundles/backendjs")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

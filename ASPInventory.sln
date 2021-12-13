@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPInventory", "ASPInventory\ASPInventory.csproj", "{3EA6EEA5-4B8E-4C66-B02A-F786BF4C9E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA6EEA5-4B8E-4C66-B02A-F786BF4C9E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA6EEA5-4B8E-4C66-B02A-F786BF4C9E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA6EEA5-4B8E-4C66-B02A-F786BF4C9E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA6EEA5-4B8E-4C66-B02A-F786BF4C9E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2DAF473-E94D-4966-9F90-0DF4CEABE3F0}
+	EndGlobalSection
+EndGlobal
